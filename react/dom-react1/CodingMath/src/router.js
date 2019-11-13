@@ -8,6 +8,7 @@ function RouterConfig({ history }) {
       <Switch>
         <Route path="/" exact component={AntdPage} />
         <Route path='/home' exact component={IndexPage}/>
+        
       </Switch>
     </Router>
   );

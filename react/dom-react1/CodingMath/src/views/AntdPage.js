@@ -14,7 +14,7 @@ class IndexPage extends React.Component{
             {/* 再左右布局 */}
           <Layout>
             <Sider width={200} style={{ background: '#fff' }}>
-                侧边栏
+              侧边栏
             </Sider>
             <Layout style={{ padding: '0 24px 24px' }}>
               <Breadcrumb style={{ margin: '16px 0' }}>

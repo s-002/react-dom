@@ -30,6 +30,9 @@ class Home extends Component{
         ],
         isNan:0
     }
+    detail=(item)=>{
+        this.props.history.push('/detail',item)
+    }
     render(){
         let {navlist,bootlist,isNan}=this.state
         let {list} =this.props
@@ -51,7 +54,7 @@ class Home extends Component{
                 <div className='con'>
                 {
                       list.map((item,key)=>{
-                          return <div key={key} className='divs'>
+                          return <div onClick={()=>{this.detail(item)}} key={key} className='divs'>
                               <span className="spans">{item.name}</span>
                               <h4>{item.qusetion}</h4>
                               <p>{item.befaulr}</p>
@@ -77,7 +80,7 @@ class Home extends Component{
 }
 
 let mapStateToProps=(store)=>{
-    console.log(store)
+    // console.log(store)
     let {list} =store
     return {
         list

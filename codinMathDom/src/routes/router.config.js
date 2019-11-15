@@ -1,7 +1,7 @@
 // 加载一级路由
 import IndexPage from '@/views/IndexPage'
 import GovList from '@/views/gov/index'
-
+import AddGov from '@/views/gov/addgov'
 
 export default {
   routes: [{
@@ -15,7 +15,7 @@ export default {
     },
     {
       path: '/main/addGov',
-      component: ()=><p>新增机构页面</p>,
+      component:AddGov,
     },{
       path: '/main/editGov/:id?',
       component: ()=><p>编辑机构</p>,

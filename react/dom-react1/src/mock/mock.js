@@ -12,6 +12,10 @@ let data=Mock.mock({
 let mock={
     '/get/data'(){
         return mockdata
+    },
+    '/get/num'(obj){
+        mockdata[obj].num++
+        return mockdata[obj]
     }
 }
 

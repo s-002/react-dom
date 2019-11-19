@@ -4,6 +4,7 @@ let reducer=(state,action)=>{
     if(action.type==='DATA'){
         state.list=action.list
     }
+    
     return {...state}
 }
 let initstate={

@@ -1,0 +1,22 @@
+<swiper
+  indicator-dots="trus"
+  autoplay="true"
+  circular="true"
+  interval="3000"
+  duration="1000"
+  easing-function="linear">
+  <block wx:for="{{banners}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>
+<text>收藏卡面</text>
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+    <text>{{item.value}}</text>
+  </label>
+</checkbox-group>
+
+

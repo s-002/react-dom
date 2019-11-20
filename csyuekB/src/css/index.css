@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    height: 630px;
+}
+.tapBar{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.cartnum{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    background: red;
+    font-size: 15px;
+}
+.contentbox{
+    overflow: auto;
+    height: 630px;
+}
+.listdata{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+dl{
+    width: 28%;
+    border:1px solid #ccc;
+    margin: 7px;
+}
+dd{
+    height: 100px;
+}
+dd img{
+    width: 100%;
+    height: 100%;
+}

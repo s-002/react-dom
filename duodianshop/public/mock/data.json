@@ -7,8 +7,9 @@
         "varietal": "Touriga Nacional",
         "alcohol": "13%",
         "price": 55,
-        "id":123,
-        "count":0
+        "id":1,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img0.imgtn.bdimg.com/it/u=2617197295,2527408515&fm=11&gp=0.jpg",
@@ -18,8 +19,9 @@
         "varietal": "Pinot Noir",
         "alcohol": "12%",
         "price": 19,
-        "id":12378,
-        "count":0
+        "id":2,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img2.imgtn.bdimg.com/it/u=2670015443,1181555097&fm=26&gp=0.jpg",
@@ -29,8 +31,9 @@
         "varietal": "Cabernet Sauvignon ",
         "alcohol": "12%",
         "price": 15,
-        "id":12389,
-        "count":0
+        "id":3,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img5.imgtn.bdimg.com/it/u=309259248,536823683&fm=26&gp=0.jpg",
@@ -40,8 +43,9 @@
         "varietal": "Sangiovese",
         "alcohol": "13%",
         "price": 85,
-        "id":100,
-        "count":0
+        "id":4,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img3.imgtn.bdimg.com/it/u=2126911061,3628741184&fm=26&gp=0.jpg",
@@ -51,8 +55,9 @@
         "varietal": "Bordeaux ",
         "alcohol": "12%",
         "price": 269,
-        "id":1987,
-        "count":0
+        "id":5,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img1.imgtn.bdimg.com/it/u=824180291,3274720490&fm=26&gp=0.jpg",
@@ -62,8 +67,9 @@
         "varietal": "Cabernet Sauvignon",
         "alcohol": "12%",
         "price": 125,
-        "id":98765,
-        "count":0
+        "id":6,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img3.imgtn.bdimg.com/it/u=3169426013,2429955584&fm=26&gp=0.jpg",
@@ -73,8 +79,9 @@
         "varietal": "Syrah, Shiraz",
         "alcohol": "12%",
         "price": 153,
-        "id":93457,
-        "count":0
+        "id":7,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img5.imgtn.bdimg.com/it/u=3764191016,3281458651&fm=26&gp=0.jpg",
@@ -84,8 +91,9 @@
         "varietal": "Touriga Nacional",
         "alcohol": "13%",
         "price": 55,
-        "id":977,
-        "count":0
+        "id":8,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img0.imgtn.bdimg.com/it/u=2617197295,2527408515&fm=11&gp=0.jpg",
@@ -95,8 +103,9 @@
         "varietal": "Pinot Noir",
         "alcohol": "12%",
         "price": 19,
-        "id":99999,
-        "count":0
+        "id":9,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img3.imgtn.bdimg.com/it/u=2940583956,4243500277&fm=26&gp=0.jpg",
@@ -106,8 +115,9 @@
         "varietal": "Cabernet Sauvignon ",
         "alcohol": "12%",
         "price": 15,
-        "id":123000,
-        "count":0
+        "id":10,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img5.imgtn.bdimg.com/it/u=309259248,536823683&fm=26&gp=0.jpg",
@@ -117,8 +127,9 @@
         "varietal": "Sangiovese",
         "alcohol": "13%",
         "price": 85,
-        "id":123123,
-        "count":0
+        "id":11,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img3.imgtn.bdimg.com/it/u=2126911061,3628741184&fm=26&gp=0.jpg",
@@ -128,8 +139,9 @@
         "varietal": "Bordeaux ",
         "alcohol": "12%",
         "price": 269,
-        "id":123432,
-        "count":0
+        "id":12,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img1.imgtn.bdimg.com/it/u=824180291,3274720490&fm=26&gp=0.jpg",
@@ -139,8 +151,9 @@
         "varietal": "Cabernet Sauvignon",
         "alcohol": "12%",
         "price": 125,
-        "id":1231290,
-        "count":0
+        "id":13,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img2.imgtn.bdimg.com/it/u=2670015443,1181555097&fm=26&gp=0.jpg",
@@ -150,8 +163,9 @@
         "varietal": "Cabernet Sauvignon ",
         "alcohol": "12%",
         "price": 15,
-        "id":12389,
-        "count":0
+        "id":14,
+        "count":0,
+        "flage":false
     },
     {
         "src": "http://img3.imgtn.bdimg.com/it/u=3169426013,2429955584&fm=26&gp=0.jpg",
@@ -161,7 +175,8 @@
         "varietal": "Syrah, Shiraz",
         "alcohol": "12%",
         "price": 153,
-        "id":1239090,
-        "count":0
+        "id":15,
+        "count":0,
+        "flage":false
     }
 ]

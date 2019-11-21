@@ -1,6 +1,10 @@
 import React from 'react'
+
 import Main from '../view/mian'
+import Detail from '../view/detail'
+
 import Home from '../view/main/home'
+import Cart from '../view/main/cart'
 export default {
     routes:[{
         path:'/',
@@ -19,13 +23,13 @@ export default {
             component:()=><p>会员</p>
         },{
             path:'/main/cart',
-            component:()=><p>购物车</p>
+            component:Cart
         },{
             path:'/main/my',
             component:()=><p>我的</p>
         }]
     },{
         path:'/detail',
-        component:()=><p>详情</p>
+        component:Detail
     }]
 }

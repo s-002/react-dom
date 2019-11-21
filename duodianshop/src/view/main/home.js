@@ -2,6 +2,13 @@ import React from 'react'
 import {connect} from 'react-redux'
 import axios from 'axios'
 class Home extends React.Component{
+    detail=(item)=>{
+        this.props.history.push('/detail',item)
+    }
+    addcart=(e,item)=>{
+        e.stopPropagation()//阻止事件冒泡
+        this.props.addcart(item)   
+    }
     render() {
         let {list} =this.props
         return <div className='contentbox'>
@@ -9,11 +16,20 @@ class Home extends React.Component{
             <div className='listdata'>
                 {
                     list.map((item,index)=>{
-                        return <dl key={index}>
+                        return <dl key={index} onClick={()=>{this.detail(item)}}>
                             <dd><img src={item.src}></img></dd>
-                            <dt>{item.varietal}</dt>
+                            <dt>
+                                <p>{item.varietal}</p><br/>
+                                <p>
+                                    <span>￥{item.price}</span>
+                                    <button className='btn'  onClick={(e)=>{this.addcart(e,item)}}>+</button> 
+                                </p>
+                            </dt>
+                            
                         </dl>
+                        
                     })
+                    
                 }
             </div>
         </div>
@@ -39,6 +55,12 @@ let mapDispatchToProps=dispatch=>{
             dispatch({
                 type:'GETDATA',
                 data
+            })
+        },
+        addcart(item){
+            dispatch({
+                type:'ADDcart',
+                data:item
             })
         }
     }

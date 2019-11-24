@@ -30,8 +30,9 @@ export default new Vuex.Store({
     },
     //删除
     deletelist(state,payload){
-      let index=state.list.findIndex(item=>item.id===payload.id)
+      let index=state.list.findIndex(item=>item.id===payload)
       state.list.splice(index,1)
+      window.history.back()
     },
     //减
     detele(state,payload){

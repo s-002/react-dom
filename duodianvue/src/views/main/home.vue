@@ -10,7 +10,6 @@
 </template>
 <script>
 import {mapState,mapMutations} from 'vuex'
-import axios from 'axios'
 export default {
   computed:{
     ...mapState({
@@ -23,18 +22,9 @@ export default {
     }
   },
   methods:{
-      ...mapMutations({
-        getdata:'getdata'
-      }),
       golist(){
         this.$router.push('/list')
       }
-  },
-  created(){
-    axios.get('/api/data').then(res=>{
-      console.log('res..',res)
-      this.getdata(res.data)
-    })
   }
 }
 </script>

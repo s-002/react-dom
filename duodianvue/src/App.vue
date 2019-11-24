@@ -3,7 +3,24 @@
     <router-view/>
   </div>
 </template>
+<script>
+import {mapMutations} from 'vuex'
+import axios from 'axios'
 
+export default {
+   methods:{
+      ...mapMutations({
+        getdata:'getdata'
+      })
+  },
+  async created(){
+   await axios.get('/api/data').then(res=>{
+      console.log('res..',res)
+      this.getdata(res.data)
+    })
+  }
+}
+</script>
 <style lang="scss">
 *{
   padding: 0;

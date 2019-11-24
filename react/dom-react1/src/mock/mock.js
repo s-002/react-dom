@@ -19,4 +19,9 @@ let mock={
     }
 }
 
+
+// Mock.mock('/data',"get",function(option){
+//     return data
+
+// })
 export default mock

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 //一级路由
 import Main from '../views/main'
 import Edit from '../views/edit'
@@ -46,6 +47,9 @@ const routes = [
   {
     path: '/edit',
     component:Edit
+  },{
+    path:'/login',
+    component:My
   }
 ]
 
@@ -54,5 +58,24 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+// // 添加导航守卫
+const whitelist=['/login','/register']
+router.beforeEach((to,from,naxt)=>{
+  let islogin=window.localStorage.getItem('islogin')
+  console.log(islogin)
+  if(islogin){
+    naxt()
+  }else{
+    if(whitelist.indexOf(to.path)===-1){
+      naxt('/login')
+    }else{
+      naxt()
+    }
+  }
+})
+router.afterEach((to,from)=>{
+})
+
 
 export default router

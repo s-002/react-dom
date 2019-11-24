@@ -13,6 +13,7 @@
     </footer>
   </div>
 </template>
+
 <style lang="scss">
   .box{
     width: 100%;

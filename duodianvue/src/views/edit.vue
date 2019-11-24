@@ -33,7 +33,17 @@ export default {
     info(){
       if(this.id){
         let index=this.list.findIndex(item=>item.id==this.id)
-        return this.list[index]
+        if(index!==-1){
+          return this.list[index]
+        }else{
+          return {
+            id:'',
+            name:'',
+            phone:'',
+            address:'',
+            detail:''
+          }
+        }
       }else{
         return {
           id:'',
